@@ -1,3 +1,4 @@
+import { BsPlusCircleFill, BsSearch } from 'react-icons/bs'
 import './ChatList.scss'
 
 const ChatList = () => {
@@ -5,12 +6,10 @@ const ChatList = () => {
     <div>
       <div className="search">
         <div className="search-bar">
-          <img className='search-icon' src="../public/search.png" alt="" />
+          <BsSearch className={'search-icon small-icon'} />
           <input type="text" placeholder='Search'/>
         </div>
-        <div className="add-user-button">
-          <img className="add-user-icon" src="../public/plus.png" alt="" />
-        </div>
+        <BsPlusCircleFill className='primary-color'/>
       </div>
       <div className="chat-list">
         <div className="chat-item">

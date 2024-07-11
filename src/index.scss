@@ -1,0 +1,52 @@
+@use 'variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url('/bg.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: variables.$dark-text;
+  font-size: 1rem;
+}
+
+.container {
+  width: 90vw;
+  height: 90vh;
+  background-color: variables.$dark-bg;
+  display: flex;
+}
+
+.icon{
+  cursor: pointer;
+  color: variables.$dark-text;
+}
+
+.regular-icon{
+  width: variables.$regular-icon-size;
+  height: variables.$regular-icon-size;
+  
+}
+
+.small-icon{
+  width: variables.$small-icon-size;
+  height: variables.$small-icon-size;
+  cursor: pointer;
+  color: variables.$dark-text;
+}
+
+
+
+
+.primary-color{
+  color: variables.$primary-color;
+  fill: variables.$primary-color;
+}

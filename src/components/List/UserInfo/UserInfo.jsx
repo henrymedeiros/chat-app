@@ -1,3 +1,4 @@
+import { BsPencilSquare, BsThreeDots } from 'react-icons/bs'
 import './UserInfo.scss'
 
 const UserInfo = () => {
@@ -9,8 +10,8 @@ const UserInfo = () => {
         </div>
 
         <div className="icons">
-          <img src="../public/more.png" alt="See more info" />
-          <img src="../public/edit.png" alt="See more info" />
+          <BsThreeDots  style={{ cursor: 'pointer' }}/>
+          <BsPencilSquare   style={{ cursor: 'pointer' }}/>
         </div>
     </div>
   )
